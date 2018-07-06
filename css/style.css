@@ -1,8 +1,89 @@
+body {
+  color:#ffffff;
+}
 
-.jumbotron{
-  text-align: center;
+.jumbotron {
+  border-radius: 0;
   font-size: 48px;
+}
+
+.card {
+  border: 0;
+}
+
+.coral {
+  color: coral;
+}
+
+.coral-sm {
+  font-size: 16px;
+}
+
+.lavender {
+  color: lavender;
+}
+
+.bg-lavender {
+  background-color: lavender;
+}
+
+#jumbotron-header {
   font-family: 'Montserrat', sans-serif;
   background-image: url("../img/backgrounds/landing.jpg");
-  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+#Breakfast {
+  background-image: url("/img/foodtop/breakfast.jpg");
+  text-align: center;
+  font-size: 30px;
+  height: 170px;
+  width: 150px font-family: 'Montserrat', sans-serif;
+}
+
+#lunch {
+  background-image: url("/img/foodtop/lunch.jpg");
+  text-align: center;
+  font-size: 30px;
+  background-color: margenta;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#dinner {
+  background-image: url("/img/foodtop/dinner.jpg");
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.img-shadow {
+  box-shadow: 2px 2px 5px 5px lavender;
+}
+
+#HappyHour {
+  background-color: grey;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#PartyTime {
+  background-color: #F15A29;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.col{
+  background-image: url("/img/fastFood1.jpg");
+}
+.col{
+  background-image: url("img/fastFood2");
+}
+
+#jumbotron-center {
+  background-image: url('../img/backgrounds/foodsBg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
