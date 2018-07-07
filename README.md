@@ -12,3 +12,4 @@
   5) Complete the independent project.
 
   6) Push your commits up to your repo.
+  https://hlangat.github.io/hillaryIp2/
