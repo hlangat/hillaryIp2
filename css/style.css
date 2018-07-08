@@ -102,6 +102,7 @@ padding-bottom: 0;
   margin-top: 23px;
   margin-bottom: 0 ! important;
   text-align: center;
+  padding: 50px;
 }
 h3{
   color: #F15A29;
@@ -109,4 +110,15 @@ h3{
 .color {
   color: #F15A29;
   text-align: right;
+}
+#jumbotron-footer{
+  background-color: #F15A29;
+  text-align: center;
+  color: black;
+}
+p{
+  color: black;
+}
+h4{
+  text-align: center;
 }
