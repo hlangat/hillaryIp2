@@ -1,10 +1,11 @@
 body {
-  color:#ffffff;
+  color: #ffffff;
 }
 
 .jumbotron {
   border-radius: 0;
   font-size: 48px;
+  text-align: center;
 }
 
 .coral {
@@ -70,17 +71,42 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.col{
+.col {
   background-image: url("/img/fastFood1.jpg");
 }
-.col{
+
+.col {
   background-image: url("img/fastFood2");
 }
-.coral-sm{
-}
+
+.coral-sm {}
+
 #jumbotron-center {
   background-image: url('../img/backgrounds/foodsBg.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: auto;
+}
+
+#customers {
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  position: relative;
+padding-bottom: 0;
+}
+.container2{
+  position: relative;
+  padding: 0;! important;
+  margin-top: 70px;
+  margin-top: 23px;
+  margin-bottom: 0 ! important;
+  text-align: center;
+}
+h3{
+  color: #F15A29;
+}
+.color {
+  color: #F15A29;
+  text-align: right;
 }
