@@ -39,6 +39,9 @@ body {
   height: 170px;
   width: 150px font-family: 'Montserrat', sans-serif;
 }
+#Breakfast:hover{
+  opacity: 0.3;
+}
 
 #lunch {
   background-image: url("/img/foodtop/lunch.jpg");
@@ -47,12 +50,18 @@ body {
   background-color: margenta;
   font-family: 'Montserrat', sans-serif;
 }
+#lunch:hover{
+  opacity: 0.7;
+}
 
 #dinner {
   background-image: url("/img/foodtop/dinner.jpg");
   text-align: center;
   font-size: 30px;
   font-family: 'Montserrat', sans-serif;
+}
+#dinner:hover{
+  opacity: 0.2;
 }
 
 .img-shadow {
@@ -79,7 +88,9 @@ body {
   background-image: url("img/fastFood2");
 }
 
-.coral-sm {}
+.coral-sm {
+  font-size: 20px;
+}
 
 #jumbotron-center {
   background-image: url('../img/backgrounds/foodsBg.jpg');
@@ -93,26 +104,47 @@ body {
   padding: 0;
   text-align: center;
   position: relative;
-padding-bottom: 0;
+  padding-bottom: 0;
 }
-.container2{
+
+.container2 {
   position: relative;
-  padding: 0;! important;
+  padding: 0;
+   ! important;
   margin-top: 70px;
   margin-top: 23px;
   margin-bottom: 0 ! important;
   text-align: center;
 }
-h3{
+
+h3 {
   color: #F15A29;
 }
+
 .color {
   color: #F15A29;
   text-align: right;
 }
-#subscribe{
+
+#subscribe {
   background-image: url("../img/backgrounds/subscribe.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%auto;
+}
+
+#footer {
+  background-color: #F15A29;
+  margin-top: -50px;
+  padding: 50px;
+  text-align: center;
+
+}
+#Agehour{
+  height: 50%;
+  background-color: grey;
+}
+#PartyTime{
+  background-color: #F15A29;
+  height: 50%;
 }
