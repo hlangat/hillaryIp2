@@ -131,8 +131,11 @@ h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%auto;
-}
 
+}
+#subscribe h3{
+  color: white;
+}
 #footer {
   background-color: #F15A29;
   margin-top: -50px;
