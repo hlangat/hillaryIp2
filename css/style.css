@@ -30,6 +30,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
+  background-color: #F15A29;
 }
 
 #Breakfast {
@@ -93,32 +94,39 @@ body {
   padding: 0;
   text-align: center;
   position: relative;
-padding-bottom: 0;
+  padding-bottom: 0;
 }
-.container2{
+
+.container2 {
   position: relative;
-  padding: 0;! important;
+  padding: 0;
+   ! important;
   margin-top: 70px;
   margin-top: 23px;
   margin-bottom: 0 ! important;
   text-align: center;
   padding: 50px;
 }
-h3{
+
+h3 {
   color: #F15A29;
 }
+
 .color {
   color: #F15A29;
   text-align: right;
 }
-#jumbotron-footer{
+
+#jumbotron-footer {
   background-color: #F15A29;
   text-align: center;
   color: black;
 }
-p{
+
+p {
   color: black;
 }
-h4{
+
+h4 {
   text-align: center;
 }
